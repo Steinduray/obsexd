@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+body {
+    font-family: 'Chivo Mono', monospace;
+}
+
+
+header {
+    background-color: transparent;
+
+}
+
+#instagram-header {
+    width: 37px;
+    height: 37px;
+}
+
+#logo-header {
+    margin-left: -70px;
+    width: 180px;
+    height: 110px;
+}
+
+#cart-header {
+    width: 37px;
+    height: 37px;
+
+}
+
+body {
+    
+    background-image: url(/img/sexual.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 110px); /* 110px is the height of the header */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+
+
+
+
+/* FOOTER */
+.container {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+#btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+   
+}
+      
+
